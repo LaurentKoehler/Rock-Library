@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram, faTiktok, faYoutube, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -27,7 +28,9 @@ function Footer() {
                 </a>
             </nav>
             <span>
-                <img src='assets/header-condensed-logo.png' alt="Queen" />
+                <Link to="/">
+                    <img src={`${import.meta.env.BASE_URL}assets/header-condensed-logo.png`} alt="Queen" />
+                </Link>
                 <p>&copy; 2026</p>
             </span>
         </footer>
