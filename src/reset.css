@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body propre */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Listes : enlever les puces */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Liens : enlever soulignement et couleur bleue */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Images : éviter qu'elles dépassent et l'espace blanc dessous */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Boutons et inputs : hériter de la typo du parent */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}

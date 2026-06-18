@@ -1,0 +1,26 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+.description {
+    font-family: 'EB Garamond', serif;
+    font-size: large
+}
+
+
+main {
+    background-color: blanchedalmond;
+    min-height: 65vh;
+    padding: 0 2rem 2rem 2rem;
+
+    .album-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+
+
+    }
+}
