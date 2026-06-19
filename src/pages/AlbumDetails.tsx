@@ -26,50 +26,61 @@ function AlbumDetails() {
                         ))}
                     </ol></div>
             </article>
-            <article className="description">
-                <p>{album.description}</p>
-                <p>
-                    <strong>Date de sortie:</strong> {album.releaseDate}
-                    {album.concertDate && (
-                        <span style={{ display: "block" }}>
-                            <strong>Date de concert:</strong> {album.concertDate}
-                        </span>
+            <div className="bottom-row">
+                <article className="description">
+                    <p>{album.description}</p>
+                    <p>
+                        <strong>Date de sortie:</strong> {album.releaseDate}
+                        {album.concertDate && (
+                            <span style={{ display: "block" }}>
+                                <strong>Date de concert:</strong> {album.concertDate}
+                            </span>
+                        )}
+                    </p>
+                    <h3>Membres:</h3>
+                    <ul>
+                        {album.members.map((member) => (
+                            <li key={member.name}>
+                                <strong>{member.name}</strong> — {member.instruments.join(", ")}
+                            </li>
+                        ))}
+                    </ul>
+
+                    {album.guests.length > 0 && (
+                        <>
+                            <h3>Artistes invités</h3>
+                            <ul>
+                                {album.guests.map((guest) => (
+                                    <li key={guest.name}>
+                                        <strong>{guest.name}</strong> — {guest.role}
+                                    </li>
+                                ))}
+                            </ul>
+                        </>
                     )}
-                </p>
-                <h3>Membres:</h3>
-                <ul>
-                    {album.members.map((member) => (
-                        <li key={member.name}>
-                            <strong>{member.name}</strong> — {member.instruments.join(", ")}
-                        </li>
-                    ))}
-                </ul>
+                    <p><strong>Label UK:</strong> {album.label} / <strong>Label US:</strong> {album.labelUS}</p>
+                    <p><strong>Production: </strong> {album.producer}</p>
+                    <p><strong>Genre:</strong> {album.genre.join(", ")}</p>
 
-                {album.guests.length > 0 && (
-                    <>
-                        <h3>Artistes invités</h3>
-                        <ul>
-                            {album.guests.map((guest) => (
-                                <li key={guest.name}>
-                                    <strong>{guest.name}</strong> — {guest.role}
-                                </li>
-                            ))}
-                        </ul>
-                    </>
-                )}
-                <p><strong>Label UK:</strong> {album.label} / <strong>Label US:</strong> {album.labelUS}</p>
-                <p><strong>Production: </strong> {album.producer}</p>
-                <p><strong>Genre:</strong> {album.genre.join(", ")}</p>
+                    {album.studios.length > 0 && (
+                        <p><strong>Studios:</strong> {album.studios.join(", ")}</p>
+                    )}
 
-                {album.studios.length > 0 && (
-                    <p><strong>Studios:</strong> {album.studios.join(", ")}</p>
+                    {album.notableSingles.length > 0 && (
+                        <p><strong>Singles notables</strong> : {album.notableSingles.join(", ")}</p>
+                    )}
+                </article>
+                {album.spotifyId && (
+                    <iframe
+                        src={`https://open.spotify.com/embed/album/${album.spotifyId}`}
+                        width="100%"
+                        height="352"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"
+                    />
                 )}
-
-                {album.notableSingles.length > 0 && (
-                    <p><strong>Singles notables</strong> : {album.notableSingles.join(", ")}</p>
-                )}
-            </article>
-        </section>
+            </div>
+        </section >
     )
 }
 
