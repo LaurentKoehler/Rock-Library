@@ -15,10 +15,13 @@ header {
     nav {
         display: flex;
         justify-content: center;
+        align-items: center;
+        position: relative;
         color: whitesmoke;
         width: 100%;
         height: 3rem;
         background-color: black;
+
 
         button {
             min-width: 8%;
@@ -28,6 +31,13 @@ header {
             margin: 0;
             cursor: pointer;
 
+        }
+
+        input {
+            position: absolute;
+            right: 2rem;
+            font-family: 'EB Garamond', serif;
+            color: black
         }
     }
 }

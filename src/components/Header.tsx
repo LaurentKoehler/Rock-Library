@@ -1,7 +1,9 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link, useNavigate, useSearchParams } from "react-router-dom"
+
 
 function Header() {
     const navigate = useNavigate()
+    const [searchParams] = useSearchParams()
     return (
         <header>
             <Link to="/">
@@ -12,6 +14,16 @@ function Header() {
                 <button onClick={() => navigate("/?filter=live")}>Live</button>
                 <button onClick={() => navigate("/?filter=compilation")}>Compilation</button>
                 <button onClick={() => navigate("/?filter=all")}>All</button>
+                <input
+                    type="search"
+                    placeholder="Chanson ou Année..."
+                    onChange={(chauvergine) => {
+                        const filter = searchParams.get("filter") ?? "all"
+                        const value = chauvergine.target.value
+                        const isYear = /^\d+$/.test(value)
+                        navigate(`/?filter=${filter}&song=${isYear ? "" : value}&year=${isYear ? value : ""}`)
+                    }}
+                />
             </nav>
         </header>
     )
