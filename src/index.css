@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Cinzel', serif;
+    background-color: black;
 }
 
 .description {
@@ -15,6 +16,7 @@ main {
     background-color: blanchedalmond;
     min-height: 65vh;
     padding: 0 2rem 2rem 2rem;
+    border-radius: 35px;
 
     .album-grid {
         display: grid;

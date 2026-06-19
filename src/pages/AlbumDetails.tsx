@@ -32,7 +32,7 @@ function AlbumDetails() {
                     </ol></div>
             </article>
 
-            <div className="nav-button">
+            <div className="nav-buttons">
                 {previousALbum && (
                     <button onClick={() => navigate(`/album/${previousALbum.id}`)}>
                         ← {previousALbum.title}
