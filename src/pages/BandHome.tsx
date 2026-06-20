@@ -1,12 +1,13 @@
-import { useSearchParams } from "react-router-dom"
-import Album from "../../components/Album"
-import queenData from '../../data/queenData.json'
-import type { Album as AlbumData } from "../../types/types"
+import { useSearchParams, useLocation } from "react-router-dom"
+import Album from "../components/Album"
+import dataMap from "../data/index"
+import type { Album as AlbumData } from "../types/types"
 
-const albums = queenData as AlbumData[]
+function BandHome() {
+    const location = useLocation()
+    const artist = location.pathname.split('/')[1]
+    const albums = (dataMap[artist] ?? []) as AlbumData[]
 
-
-function QueenHome() {
     const [searchParams] = useSearchParams()
     const activeFilter = searchParams.get("filter") ?? "all"
     const songQuery = searchParams.get("song") ?? ""
@@ -27,15 +28,15 @@ function QueenHome() {
         .sort((a, b) => yearQuery ? a.year - b.year : a.id - b.id)
 
     return (
-        <><h1>Albums</h1>
+        <>
+            <h1>Albums</h1>
             <section className="album-grid">
                 {filteredAlbum.map((album) => (
-                    <Album key={album.id} album={album} />
-                ))
-                }
+                    <Album key={album.id} album={album} artist={artist} />
+                ))}
             </section>
         </>
     )
 }
 
-export default QueenHome
+export default BandHome

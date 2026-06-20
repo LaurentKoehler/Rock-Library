@@ -63,7 +63,6 @@ h1 {
 .general-theme .album {
     background-color: var(--card-color);
     border: 1px solid var(--border-color);
-    box-shadow: 5px 5px 40px 5px #000000;
 
     h2 {
         color: var(--text-color);

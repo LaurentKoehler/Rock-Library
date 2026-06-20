@@ -3,11 +3,13 @@ import { createHashRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import './components/queen/queen.css'
 import './components/general/general.css'
+import './components/pink floyd/pinkfloyd.css'
 import GeneralLayout from './layouts/GeneralLayout.tsx'
 import HomeGeneral from './pages/HomeGeneral.tsx'
 import QueenLayout from './layouts/QueenLayout.tsx'
-import QueenHome from './pages/queen/QueenHome.tsx'
+import BandHome from './pages/BandHome.tsx'
 import AlbumDetails from './pages/AlbumDetails.tsx'
+import PinkFloydLayout from './layouts/PinkFloydLayout.tsx'
 
 
 const router = createHashRouter(
@@ -28,7 +30,21 @@ const router = createHashRouter(
       children: [
         {
           index: true,
-          element: <QueenHome />
+          element: <BandHome />
+        },
+        {
+          path: "album/:id",
+          element: <AlbumDetails />
+        },
+      ]
+    },
+    {
+      path: "/pink-floyd",
+      element: <PinkFloydLayout />,
+      children: [
+        {
+          index: true,
+          element: <BandHome />
         },
         {
           path: "album/:id",

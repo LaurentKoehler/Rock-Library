@@ -21,7 +21,7 @@ function HomeGeneral() {
             <h1>Rock Library</h1>
             <section className="album-grid">
                 {filteredAlbums.map((album) => (
-                    <Link key={album.id} to={`/${album.artist.toLowerCase()}/album/${album.id}`}>
+                    <Link key={album.id} to={`/${album.artist.toLowerCase().replace(/ /g, '-')}/album/${album.id}`}>
                         <article className="album">
                             <img src={`${import.meta.env.BASE_URL}${album.cover.replace(/^\//, '')}`} alt={album.title} />
                             <h2>{album.title}</h2>

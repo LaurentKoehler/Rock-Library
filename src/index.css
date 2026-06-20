@@ -63,6 +63,7 @@ header {
 main {
     min-height: 65vh;
     padding: 0 2rem 2rem 2rem;
+    margin: 0 0.6rem;
     border-radius: 35px;
 
     .album-grid {

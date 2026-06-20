@@ -57,7 +57,7 @@
       "Arnold Layne",
       "See Emily Play"
     ],
-    "cover": "./assets/pink_floyd_covers/piper",
+    "cover": "./assets/pink_floyd_covers/piper.jpg",
     "description": "Le seul album enregistré sous la direction de Syd Barrett. Mélange de compositions psychédéliques fantaisistes et de longues improvisations spatiales, enregistré dans le studio 3 d'Abbey Road pendant que les Beatles enregistraient Sgt. Pepper's de l'autre côté du couloir. Syd Barrett en est le principal auteur-compositeur.",
     "tracklist": [
       {
@@ -184,7 +184,7 @@
       "Let There Be More Light",
       "Point Me at the Sky"
     ],
-    "cover": "./assets/pink_floyd_covers/saucerful",
+    "cover": "./assets/pink_floyd_covers/saucerful.jpg",
     "description": "Album de transition où Syd Barrett, dont la santé mentale se détériorait, fut progressivement remplacé par David Gilmour. C'est le seul album à présenter les deux guitaristes. Barrett n'apparaît que sur un titre, 'Jugband Blues', qui sonne comme un adieu troublant.",
     "tracklist": [
       {
@@ -284,7 +284,7 @@
       "The Nile Song",
       "Crying Song"
     ],
-    "cover": "./assets/pink_floyd_covers/more",
+    "cover": "./assets/pink_floyd_covers/more.jpg",
     "description": "Bande originale du film de Barbet Schroeder 'More', tourné à Ibiza. Premier album autoproduit par le groupe et première collaboration avec le label Harvest. Mélange de rock psychédélique, de folk acoustique et d'expérimentations sonores.",
     "tracklist": [
       {
@@ -414,7 +414,7 @@
     ],
     "guests": [],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/ummagumma",
+    "cover": "./assets/pink_floyd_covers/ummagumma.jpg",
     "description": "Double album hybride : le premier disque est un live capturé lors de deux concerts en 1969, le second contient des compositions solo de chaque membre. Une expérience avant-gardiste unique où chaque musicien explore son univers personnel. La pochette utilise l'effet Droste avec des photos en abyme.",
     "tracklist": [
       {
@@ -570,7 +570,7 @@
     "notableSingles": [
       "Atom Heart Mother"
     ],
-    "cover": "./assets/pink_floyd_covers/atom",
+    "cover": "./assets/pink_floyd_covers/atom.jpg",
     "description": "Premier album à atteindre la 1re place des charts UK. La face A est occupée par la suite orchestrale 'Atom Heart Mother' de 23 minutes, co-composée avec Ron Geesin. La pochette, une photo d'une vache dans un champ sans nom du groupe, fut choisie délibérément contre l'image psychédélique du groupe.",
     "tracklist": [
       {
@@ -660,7 +660,7 @@
     "notableSingles": [
       "One of These Days"
     ],
-    "cover": "./assets/pink_floyd_covers/meddle",
+    "cover": "./assets/pink_floyd_covers/meddle.jpg",
     "description": "L'album qui préfigure le son de The Dark Side of the Moon. La face B est entièrement occupée par 'Echoes', une épopée de 23 minutes qui constitue le premier chef-d'œuvre de la période post-Barrett. La pochette représente une oreille sous l'eau.",
     "tracklist": [
       {
@@ -754,7 +754,7 @@
       "Free Four",
       "Childhood's End"
     ],
-    "cover": "./assets/pink_floyd_covers/obscured",
+    "cover": "./assets/pink_floyd_covers/obscured.jpg",
     "description": "Bande originale du film de Barbet Schroeder 'La Vallée', enregistrée au Château d'Hérouville en France. Album souvent négligé mais considéré comme une étape importante vers le son de The Dark Side of the Moon. Roger Waters signe la majorité des textes.",
     "tracklist": [
       {
@@ -895,7 +895,7 @@
       "Us and Them",
       "Any Colour You Like"
     ],
-    "cover": "./assets/pink_floyd_covers/dark_side",
+    "cover": "./assets/pink_floyd_covers/dark_side.jpg",
     "description": "L'un des albums les plus vendus de tous les temps avec plus de 30 millions de copies. A passé 14 ans consécutifs dans le Billboard 200 — un record. Concept album explorant les thèmes de la folie, du temps, de la cupidité et de la mort. La pochette au prisme de lumière est devenue une icône mondiale.",
     "tracklist": [
       {
@@ -1025,7 +1025,7 @@
       "Wish You Were Here",
       "Have a Cigar"
     ],
-    "cover": "./assets/pink_floyd_covers/wish_you",
+    "cover": "./assets/pink_floyd_covers/wish_you.jpg",
     "description": "Hommage à Syd Barrett, qui rendit visite au groupe de manière inattendue pendant l'enregistrement, méconnaissable après des années de maladie mentale. La suite 'Shine On You Crazy Diamond' encadre l'album. Roger Waters signe la totalité des textes.",
     "tracklist": [
       {
@@ -1114,7 +1114,7 @@
       "Pigs on the Wing",
       "Dogs"
     ],
-    "cover": "./assets/pink_floyd_covers/animals",
+    "cover": "./assets/pink_floyd_covers/animals.jpg",
     "description": "Inspiré de 'La Ferme des animaux' d'Orwell, cet album politique et cynique critique la société britannique des années 70. Premier enregistrement dans leur propre studio, Britannia Row. Connu pour la photo du cochon gonflable flottant sur la centrale électrique de Battersea.",
     "tracklist": [
       {
@@ -1227,7 +1227,7 @@
       "Run Like Hell",
       "Comfortably Numb"
     ],
-    "cover": "./assets/pink_floyd_covers/wall",
+    "cover": "./assets/pink_floyd_covers/wall.jpg",
     "description": "Double album concept narrant l'histoire de Pink, un rockstar s'isolant derrière un mur émotionnel. L'un des albums les plus certifiés de l'histoire (23× Platine aux USA). Richard Wright fut renvoyé pendant l'enregistrement mais participa à la tournée en tant que musicien salarié.",
     "tracklist": [
       {
@@ -1432,7 +1432,7 @@
       "The Final Cut",
       "The Fletcher Memorial Home"
     ],
-    "cover": "./assets/pink_floyd_covers/final_cut",
+    "cover": "./assets/pink_floyd_covers/final_cut.jpg",
     "description": "Surnommé 'le dernier album de Roger Waters avec Pink Floyd', The Final Cut est un requiem pour les victimes de la Seconde Guerre mondiale, inspiré par la guerre des Malouines. Waters est l'unique compositeur. David Gilmour et Nick Mason exprimèrent publiquement leur insatisfaction.",
     "tracklist": [
       {
@@ -1586,7 +1586,7 @@
       "On the Turning Away",
       "One Slip"
     ],
-    "cover": "./assets/pink_floyd_covers/momentary_lapse",
+    "cover": "./assets/pink_floyd_covers/momentary_lapse.jpg",
     "description": "Premier album sans Roger Waters, qui tenta juridiquement d'empêcher le groupe de continuer sous le nom Pink Floyd. Enregistré en partie sur l'Astoria, le bateau-studio de Gilmour sur la Tamise. Richard Wright participe en tant que musicien salarié.",
     "tracklist": [
       {
@@ -1748,7 +1748,7 @@
       "High Hopes",
       "Keep Talking"
     ],
-    "cover": "./assets/pink_floyd_covers/thunder",
+    "cover": "./assets/pink_floyd_covers/division_bell.jpg",
     "description": "Dernier album studio avec Richard Wright comme membre officiel. Les paroles, coécrites avec Polly Samson (compagne de Gilmour), explorent thèmes de communication et de relation. 'Keep Talking' utilise un échantillon de la voix de Stephen Hawking.",
     "tracklist": [
       {
@@ -1871,7 +1871,7 @@
     "notableSingles": [
       "Louder Than Words"
     ],
-    "cover": "./assets/pink_floyd_covers/division_bell",
+    "cover": "./assets/pink_floyd_covers/endless_river.jpg",
     "description": "Dernier album de Pink Floyd, construit principalement à partir d'enregistrements de Richard Wright lors des sessions de The Division Bell en 1993-94. Un hommage posthume à Wright, décédé en 2008. Album presque entièrement instrumental, à l'exception du titre final 'Louder Than Words'.",
     "tracklist": [
       {
@@ -2019,7 +2019,7 @@
     ],
     "guests": [],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/endless_river",
+    "cover": "./assets/pink_floyd_covers/relics.webp",
     "description": "Première compilation officielle de Pink Floyd, couvrant la période Barrett et les débuts post-Barrett. Contient des singles non-album rares dont 'Arnold Layne' et 'See Emily Play'. La pochette, dessinée par Nick Mason, représente une machine steampunk.",
     "tracklist": [
       {
@@ -2136,7 +2136,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/collection",
+    "cover": "./assets/pink_floyd_covers/collection.jpg",
     "description": "Compilation officielle couvrant la période 1973-1979. Malgré son titre ironique — Pink Floyd n'était pas connu pour la danse — c'est une sélection des plus grands hits de la période classique. La version de 'Money' est une re-enregistrement car EMI ne possédait pas les droits de l'original.",
     "tracklist": [
       {
@@ -2224,7 +2224,7 @@
     ],
     "guests": [],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/works",
+    "cover": "./assets/pink_floyd_covers/works.jpg",
     "description": "Compilation publiée exclusivement aux États-Unis et au Canada par Capitol Records. Couvre la période 1968-1975, des débuts post-Barrett à Wish You Were Here. Contient des raretés comme 'Embryo'.",
     "tracklist": [
       {
@@ -2344,7 +2344,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/echoes",
+    "cover": "./assets/pink_floyd_covers/echoes.jpg",
     "description": "Double album de 26 titres couvrant l'intégralité de la carrière de Pink Floyd de 1967 à 1994. La pochette combine plusieurs images des pochettes Hipgnosis précédentes. L'une des compilations les mieux construites de leur catalogue.",
     "tracklist": [
       {
@@ -2549,7 +2549,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/foot_in_the_door",
+    "cover": "./assets/pink_floyd_covers/foot_in_the_door.jpg",
     "description": "Compilation d'un seul CD de 16 titres, conçue comme introduction à la discographie de Pink Floyd. Publiée pour accompagner la sortie du catalogue remasterisé. Couvre la période 1967-1994 avec une sélection des titres les plus accessibles.",
     "tracklist": [
       {
@@ -2689,7 +2689,7 @@
     ],
     "guests": [],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/pompeii",
+    "cover": "./assets/pink_floyd_covers/pompeii.jpg",
     "description": "Concert filmé sans public dans l'amphithéâtre antique de Pompéi. Film culte réalisé par Adrian Maben, sorti en album uniquement en 1972. Les performances sont entrecoupées de séquences en studio lors de l'enregistrement de The Dark Side of the Moon.",
     "tracklist": [
       {
@@ -2808,7 +2808,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/thunder_live",
+    "cover": "./assets/pink_floyd_covers/thunder_live.jpg",
     "description": "Premier album live de Pink Floyd sans Roger Waters, enregistré lors de la tournée A Momentary Lapse of Reason. Disponible en CD, cassette et VHS. Réédité en 2020 en Blu-ray, DVD et vinyle.",
     "tracklist": [
       {
@@ -2990,7 +2990,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/pulse",
+    "cover": "./assets/pink_floyd_covers/pulse.jpg",
     "description": "Double album live de la tournée The Division Bell. L'édition CD originale incluait une LED clignotante sur le dos du boîtier. Contient la seule performance officielle complète de The Dark Side of the Moon en live. Considéré comme l'un des meilleurs albums live de l'histoire du rock.",
     "tracklist": [
       {
@@ -3185,7 +3185,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/anybody",
+    "cover": "./assets/pink_floyd_covers/anybody.jpg",
     "description": "Enregistrement officiel du spectacle The Wall Tour, l'un des shows live les plus élaborés de l'histoire du rock. La tournée ne comprend que 31 dates en raison du coût exorbitant de la production. Un mur de briques était véritablement construit sur scène pendant le concert.",
     "tracklist": [
       {
@@ -3394,7 +3394,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/remember",
+    "cover": "./assets/pink_floyd_covers/remember.jpg",
     "description": "Live de la tournée On an Island de David Gilmour, capturé au Royal Albert Hall. Bien que crédité à Gilmour en solo, Wright et Mason participent. David Bowie est apparu pour chanter 'Arnold Layne' lors de la deuxième nuit.",
     "tracklist": [
       {
@@ -3546,7 +3546,7 @@
       }
     ],
     "notableSingles": [],
-    "cover": "./assets/pink_floyd_covers/dark_side_live",
+    "cover": "./assets/pink_floyd_covers/dark_side_live.jpg",
     "description": "Extrait du coffret 50e anniversaire de The Dark Side of the Moon. Capture la performance live complète de l'album au Wembley Empire Pool en 1974, un an après sa sortie. La qualité sonore a été remarquablement restaurée par Andy Jackson.",
     "tracklist": [
       {

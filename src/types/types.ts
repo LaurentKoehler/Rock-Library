@@ -42,5 +42,6 @@ export interface Album {
 
 export interface AlbumProps {
     album: Album
+    artist: string
 }
 

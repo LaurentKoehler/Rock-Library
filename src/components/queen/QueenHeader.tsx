@@ -26,7 +26,7 @@ function QueenHeader() {
                         const filter = searchParams.get("filter") ?? "all"
                         const value = chauvergine.target.value
                         const isYear = /^\d+$/.test(value)
-                        navigate(`/?filter=${filter}&song=${isYear ? "" : value}&year=${isYear ? value : ""}`)
+                        navigate(`/queen?filter=${filter}&song=${isYear ? "" : value}&year=${isYear ? value : ""}`)
                     }}
                 />
             </nav>

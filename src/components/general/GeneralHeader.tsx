@@ -14,6 +14,7 @@ function GeneralHeader() {
                 <select className="nav-select" onChange={(grosseAubergine) => navigate(grosseAubergine.target.value)}>
                     <option value="">Groupes</option>
                     <option value="/queen">Queen</option>
+                    <option value="/pink-floyd">Pink Floyd</option>
                 </select>
                 <select className="nav-select" onChange={(biscuit) => {
                     const decade = biscuit.target.value
