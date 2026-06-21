@@ -71,13 +71,28 @@
 
     background-color: var(--nav-color);
 
+    .footer-top span {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+        flex: 1;
+
+        a {
+            display: flex;
+            align-items: center;
+        }
+    }
+
     .rock-logo {
-        height: 6rem;
+        height: 10rem;
+        width: auto;
     }
 
     .pink-floyd-logo {
         filter: invert(1);
         height: 5rem;
+        width: auto;
 
     }
 }

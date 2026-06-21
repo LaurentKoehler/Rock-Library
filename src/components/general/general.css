@@ -72,4 +72,8 @@ h1 {
 /* ── Footer ── */
 .general-footer {
     background-color: var(--primary-color);
+
+    .rock-logo {
+        height: 14rem;
+    }
 }
